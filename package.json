@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Express.js Demo Server - Guide (Crash Course)",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node --env-file=.env server.js",
     "dev": "node --env-file=.env --watch server.js"
